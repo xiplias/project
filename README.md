@@ -1,50 +1,32 @@
-# meteor-boilerplate
+# Project - Experimental Project Management
 
-This boilerplate is here to give you a structure for typical meteor projects, with a console tool to ease up some tasks. Here's what you get
-with it.
+__WORK IN PROGRESS__
 
-* meteor-boilerplate console tool, for scaffolding files and more
-* Helpful packages included, for example [Iron Router](https://github.com/EventedMind/iron-router) and [Velocity](https://github.com/xolvio/velocity)
-* Given folder structure to keep code clean
+Based on https://github.com/matteodem/meteor-boilerplate
 
-The boilerplate looks like following: [boilerplate.meteor.com](http://boilerplate.meteor.com)
+## How to use
 
-## How to install
+### How to run the project
 
-First, [download](https://github.com/matteodem/meteor-boilerplate/zipball/master) and unpack the boilerplate archive.
+__Install Meteor__
+
 ```sh
-# Assuming meteor is already installed
-cd /path/to/project/
+curl https://install.meteor.com/ | sh
+```
+
+__Run project__
+
+```sh
 meteor
 ```
 
-## How to use
+### Scaffold generator
+
 ```sh
 node meteor-boilerplate # Lists all possible commands
 node meteor-boilerplate create:route # Interactive console for command
 node meteor-boilerplate create:route login /login # Executes it immediately
 ```
-
-### Removing default code
-
-There's already a lot of predefined code in this boilerplate, to show you the possible functionality. However, if you want to start off with an
-empty project, use the provided command to get rid off all the code you don't need.
-
-```sh
-node meteor-boilerplate reset:project
-```
-
-### Available profiles
-
-* coffee (coffeescript, Unfancy JavaScript)
-* es6 (traceur, Traceur is a JavaScript.next-to-JavaScript-of-today compiler)
-
-You can change your profile like that
-```sh
-node meteor-boilerplate change:profile coffee
-```
-
-Also use the ```reset:project``` command to start off with blank files according to your profile.
 
 ### Deployments
 
@@ -99,17 +81,3 @@ tests/					# Velocity test files, can be run with mocha(*)
 meteor-boilerplate		# Command line tool
 ```
 
-(*) = the command line tool creates files in these folders
-
-## Projects created with this boilerplate
-[starthacking](http://starthacking.meteor.com/) - A simple micro page to find useful programming resources
-
-## Other Awesome Boilerplates
-
-- [Void](https://github.com/SachaG/Void) by Sacha Greif
-- [meteor-jw-opinionated-skeleton](https://github.com/jamesdwilson/meteor-jw-opinionated-skeleton) by jamesdwilson (CoffeeScript)
-- [meteor-boilerplate](https://github.com/BeDifferential/meteor-boilerplate) by BeDifferential (CoffeeScript)
-- [em](https://github.com/EventedMind/em) by EventedMind (Boilerplate & Scaffolding)
-
-## License
-This boilerplate has an MIT License, see the LICENSE.txt for more information.
