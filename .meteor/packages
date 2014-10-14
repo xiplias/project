@@ -14,5 +14,5 @@ mrt:iron-router-progress
 iron:router
 raix:handlebar-helpers
 nooitaf:semantic-ui
-velocity:html-reporter
-mike:mocha
+dburles:collection-helpers
+pfafman:font-awesome-4

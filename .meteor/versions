@@ -4,7 +4,6 @@ accounts-ui-unstyled@1.1.2
 accounts-ui@1.1.1
 aldeed:collection2@2.1.0
 aldeed:simple-schema@1.0.3
-amplify@1.0.0
 application-configuration@1.0.2
 autoupdate@1.1.1
 base64@1.0.0
@@ -17,6 +16,7 @@ check@1.0.1
 coffeescript@1.0.3
 ctl-helper@1.0.3
 ctl@1.0.1
+dburles:collection-helpers@1.0.0
 ddp@1.0.9
 deps@1.0.4
 ejson@1.0.3
@@ -40,7 +40,6 @@ localstorage@1.0.0
 logging@1.0.3
 meteor-platform@1.1.1
 meteor@1.1.1
-mike:mocha@0.3.11
 minifiers@1.1.0
 minimongo@1.0.3
 mobile-status-bar@1.0.0
@@ -51,6 +50,7 @@ nooitaf:semantic-ui@0.19.3
 npm-bcrypt@0.7.7
 observe-sequence@1.0.2
 ordered-dict@1.0.0
+pfafman:font-awesome-4@4.2.0_1
 raix:handlebar-helpers@0.1.3
 random@1.0.0
 reactive-dict@1.0.3
@@ -70,7 +70,5 @@ tracker@1.0.2
 ui@1.0.3
 underscore@1.0.0
 url@1.0.0
-velocity:core@0.2.14
-velocity:html-reporter@0.2.3
 webapp-hashing@1.0.0
 webapp@1.1.2
