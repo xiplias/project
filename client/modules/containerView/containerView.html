@@ -1,0 +1,15 @@
+<template name="containerView">
+  <div class="">
+    <div class="ui segment containerHeader">
+      <p>{{name}}<i class="fa fa-plus addStory"></i></p>
+      <div class="itemForm">
+        <input class="quickAddItemForm" />
+      </div>
+    </div>
+    <div class="containerItems">
+      {{#each stories}}
+        <div class="ui segment story">{{name}}</div>
+      {{/each}}
+    </div>
+  </div>
+</template>
